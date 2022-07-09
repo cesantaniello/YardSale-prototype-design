@@ -64,6 +64,11 @@ body {
   margin-bottom: 52px;
 }
 
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
 .label {
   font-size: var(--sm);
   font-weight: bold;
@@ -81,7 +86,7 @@ body {
   margin-bottom: 12px;
 }
 
-.input-email {
+.input-name, .input-email, .input-password {
   margin-bottom: 22px;
 }
 
@@ -145,5 +150,14 @@ body {
 @media(max-width: 640px){
   .logo {
     display: block;
+  }
+
+  .form {
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    height: 100%;
   }
 }
