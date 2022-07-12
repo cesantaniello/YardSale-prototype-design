@@ -75,6 +75,12 @@ body {
   margin-bottom: 4px;
 }
 
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  margin: 8px 0 32px 0;
+}
+
 .input {
   background-color: var(--text-input-field);
   height: 30px;
