@@ -312,7 +312,7 @@ body {
 
 .order {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
   gap: 16px;
   align-items: center;
   background-color: var(--text-input-field);
